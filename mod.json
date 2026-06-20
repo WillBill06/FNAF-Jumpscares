@@ -1,0 +1,103 @@
+{
+    "geode": "5.7.1",
+    "version": "v1.0.0",
+	"gd": {
+      "win": "*"
+    },
+    "id": "willbill.fnaf_jumpscares",
+    "name": "FNAF Jumpscares",
+    "developer": "WillBill",
+    "description": "Renders flickering FNAF GIF jumpscares in Fullscreen with many customizability options.",
+	"tags": ["content", "enhancement", "joke"],
+    "links": { "community": "https://discord.gg/s8Q5UaQk" },
+    "dependencies": {
+        "geode.node-ids": ">=1.23.3",
+        "prevter.imageplus": ">=1.1.0"
+    },
+    "settings": {
+        "enable-keybinds": {
+            "name": "Enable Manual Keybinds",
+            "description": "Allow manual key bindings to trigger a jumpscare sequence anytime.",
+            "type": "bool",
+            "default": false
+        },
+        "hk-standard": {
+            "name": "Standard Hotkey",
+            "type": "keybind",
+            "default": "F10"
+        },
+        "hk-nightmare": {
+            "name": "Nightmare Hotkey",
+            "type": "keybind",
+            "default": "F3"
+        },
+        "hk-phantom": {
+            "name": "Phantom Hotkey",
+            "type": "keybind",
+            "default": "F5"
+        },
+        "hk-golden": {
+            "name": "Golden Freddy Hotkey",
+            "type": "keybind",
+            "default": "F7"
+        },
+        "enable-random": {
+            "name": "Enable Random Jumpscares",
+            "description": "Triggers automated random rolls strictly while actively playing inside a level.",
+            "type": "bool",
+            "default": true
+        },
+        "pct-standard": {
+            "name": "Standard Scare Chance (%)",
+            "type": "int",
+            "default": 10,
+            "min": 0, "max": 100
+        },
+        "int-standard": {
+            "name": "Standard Check Interval (Sec)",
+            "type": "int",
+            "default": 30,
+			"min": 1,
+            "max": 9999
+        },
+        "pct-nightmare": {
+            "name": "Nightmare Scare Chance (%)",
+            "type": "int",
+            "default": 5,
+            "min": 0, "max": 100
+        },
+        "int-nightmare": {
+            "name": "Nightmare Check Interval (Sec)",
+            "type": "int",
+            "default": 60,
+			"min": 1,
+            "max": 9999
+        },
+        "pct-phantom": {
+            "name": "Phantom Scare Chance (%)",
+            "type": "int",
+            "default": 5,
+            "min": 0, "max": 100
+        },
+        "int-phantom": {
+            "name": "Phantom Check Interval (Sec)",
+            "type": "int",
+            "default": 60,
+			"min": 1,
+            "max": 9999
+        },
+        "pct-golden": {
+            "name": "Golden Freddy Chance (%)",
+            "type": "int",
+            "default": 1,
+            "min": 0, "max": 100
+        },
+        "int-golden": {
+            "name": "Golden Freddy Interval (Sec)",
+            "type": "int",
+            "default": 120,
+			"min": 1,
+            "max": 9999
+        }
+    }
+}
