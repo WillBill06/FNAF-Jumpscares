@@ -1,23 +1,24 @@
-# FNAFJumpscares
-This is where she makes a mod.
+# FNAF Jumpscares
 
-<img src="logo.png" width="150" alt="the mod's logo" />
+Over **40** different jumpscares across the FNAF series!
 
-*Update logo.png to change your mod's icon (please)*
+## Features
+- **Standard Scares** – random characters from FNAF **1 to 6**  
+- **Nightmare Scares** – intense static jumpscares  
+- **Phantom Scares** – jumpscare followed by vision loss  
+- **Golden Freddy** – rare and terrifying! Lasts over **15** seconds  
 
-## Getting started
-We recommend heading over to [the getting started section on our docs](https://docs.geode-sdk.org/getting-started/) for useful info on what to do next.
+## Customization
+- Assign **custom keybinds** to each scare type  
+- Adjust **random occurrence chances** and intervals  
+- Toggle random events on/off  
 
-## Build instructions
-For more info, see [our docs](https://docs.geode-sdk.org/getting-started/create-mod#build)
-```sh
-# Assuming you have the Geode CLI set up already
-geode build
-```
+## Audio & Visuals
+- Sound effects from the original games  
+- Fullscreen animated GIFs and PNGs  
+- Unique flickering and opacity levels  
 
-# Resources
-* [Geode SDK Documentation](https://docs.geode-sdk.org/)
-* [Geode SDK Source Code](https://github.com/geode-sdk/geode/)
-* [Geode CLI](https://github.com/geode-sdk/cli)
-* [Bindings](https://github.com/geode-sdk/bindings/)
-* [Dev Tools](https://github.com/geode-sdk/DevTools)
+---
+
+**Enjoy!**  
+*– WillBill, or will.young06 on tiktok*
